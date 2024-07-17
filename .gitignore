@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> my portfolio</title>
+<style>
+body {font-family: rayhan,bahroun;
+line-height: 1.50;
+margin:0 ;
+padding: 0;
+}
+head{background-color: firebrick;
+color: black;
+text-align: center;
+padding: 1em;
+}
+nav{display:flex ;
+justify-content: center;
+margin-bottom: 1em;
+}
+nav{color: rgb(70, 108, 191);
+text-decoration: none;
+padding: 0.5 1em;
+}
+nav a:hover {background-color: rgb(116, 9, 9);}
+section{padding: 2em;}
+footer{background-color: azure;
+color: black;
+text-align: center;
+padding: 1em;
+position: fixed;
+bottom: 0;
+width:100}
+</style>
+</head>
+<body>
+    <header> 
+ <h1>wolcome in my portfolio</h1>
+    <nav>
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#resume">resume</a>
+    </nav>    
+</header> 
+<main>
+    <section id="home">
+        <h2>home</h2>
+        <p>wolcome to my profile site.here you can learn about myself</p>
+    </section>
+    <section id="about">
+        <h2>here is every thing about me</h2>
+    </section>
+    <section id="resume">
+    <form action="/submit_rusume" method="post">
+        <label for="name">rayhan bahroun: i'm a pupel i love disning watching movise and listening to music</label><br>
+        <label for="email">rayhan bahroun</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+    </form>
+    </section>
+    <section id="contact">
+        <h2>call me</h2>
+        <form action="/contact" method="post">
+            <label for="message">hi</label><br>
+            <textarea name="message" id="message" rows="4" cols="50" required></textarea>
+        </form>
+    </section>
+   </main>
+   <footer>
+    <p>&copy; my profile</p>
+   </footer>
+   </body>
+  </html>
+  <echo "#rourou" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/rayhan959/rourou.git
+    git push -u origin main
